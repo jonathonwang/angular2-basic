@@ -2,7 +2,7 @@
  * Dependency Imports
  */
 import gulp   from './src/gulp/gulp.classes.js';
-import config      from './src/gulp/gulp.config.json';
+import config from './src/gulp/gulp.config.json';
 
 // Copy Folders / Files
 gulp.Copy('copy', [
