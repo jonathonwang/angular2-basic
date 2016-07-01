@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "files": [
-    "src/main.ts"
+    "src/ts/main.ts"
   ],
   "compilerOptions": {
     "target": "es2015",

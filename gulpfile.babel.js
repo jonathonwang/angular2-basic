@@ -10,6 +10,7 @@ import browserify from 'browserify';
 import shell      from 'gulp-shell';
 import watch      from 'gulp-watch';
 import concat     from 'gulp-concat';
+import tslint     from 'gulp-tslint';
 import uglify     from 'gulp-uglify';
 import buffer     from 'vinyl-buffer';
 import filesize   from 'gulp-filesize';
@@ -59,6 +60,18 @@ gulp.task('browserify', () => {
 });
 
 /**
+ * Typescript Linter
+ */
+gulp.task('tslint', () => {
+  gulp.src([
+    `${paths.src.ts}/**/*.ts`
+  ])
+  .pipe(tslint())
+  .pipe(tslint.report("verbose"))
+});
+
+
+/**
  * Default Task
  */
 gulp.task('default', ['copy', 'sass', 'browserify'] );
@@ -67,6 +80,6 @@ gulp.task('default', ['copy', 'sass', 'browserify'] );
  * Watch Task
  */
 gulp.task('watch', ['copy','sass','browserify'], () => {
-  gulp.watch(`${paths.src.ts}/*.ts`, ['browserify']);
+  gulp.watch(`${paths.src.ts}/*.ts`, ['tslint','browserify']);
   gulp.watch(`${paths.src.sass}/*.scss`, ['sass']);
 });
