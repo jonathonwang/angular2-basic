@@ -1,4 +1,4 @@
-# angular2-basic
+# Angular2-Gulp-Basic
 ### Bootstrapped Angular2 Gulp Project
 ###### (WIP)
 ---
@@ -7,6 +7,7 @@
 `typings install`
 
 **Run Tasks**
+
 `gulp`            - Runs all tasks once
 
 `gulp watch`      - Runs all tasks and watch for changes (ctrl + c to close)
