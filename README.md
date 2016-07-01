@@ -8,10 +8,15 @@
 
 **Run Tasks**
 `gulp`            - Runs all tasks once
+
 `gulp watch`      - Runs all tasks and watch for changes (ctrl + c to close)
+
 `gulp browserify` - Runs Browserify w/ Babelify & Tsify
+
 `gulp sass`       - Runs Sass preprocessor
+
 `gulp copy`       - Runs Copy to vendor files
+
 `gulp tslint`     - Runs TsLint on .ts files
 
 **Gulp Config**
