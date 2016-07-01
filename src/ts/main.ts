@@ -4,6 +4,6 @@ bootstrap(AppComponent);
 
 ( () => {
 
-console.log('hello world123');
+console.log('does this work');
 
 })();

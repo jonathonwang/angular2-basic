@@ -44356,7 +44356,7 @@ const platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 const component_ts_1 = require('./component.ts');
 platform_browser_dynamic_1.bootstrap(component_ts_1.AppComponent);
 (() => {
-    console.log('hello world123');
+    console.log('does this work');
 })();
 
 },{"./component.ts":327,"@angular/platform-browser-dynamic":238}]},{},[328])
