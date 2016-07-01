@@ -1,31 +1,19 @@
 {
-  "vendor":{
-    "bootstrap": "node_modules/bootstrap-sass/assets/stylesheets/**/*"
-  },
-  "src" : {
-    "ts"  : "./src/ts",
-    "sass": "./src/sass"
-  },
-  "dist": {
-    "js" : "./dist/js",
-    "css": "./dist/css"
-  },
+  "name": "Angular2",
+  "icon": "https://angular.io/resources/images/logos/standard/shield-large.png",
+  "production": false,
 
-  "node_modules": {
-    "gulp"       : "gulp",
-    "tsify"      : "tsify",
-    "watchify"   : "watchify",
-    "sass"       : "gulp-sass",
-    "gutil"      : "gulp-util",
-    "browserify" : "browserify",
-    "shell"      : "gulp-shell",
-    "watch"      : "gulp-watch",
-    "concat"     : "gulp-concat",
-    "uglify"     : "gulp-uglify",
-    "buffer"     : "vinyl-buffer",
-    "filesize"   : "gulp-filesize",
-    "sourcemaps" : "gulp-sourcemaps",
-    "ts"         : "gulp-typescript",
-    "source"     : "vinyl-source-stream"
+  "paths": {
+    "vendor":{
+      "bootstrap": "node_modules/bootstrap-sass/assets/stylesheets/**/*"
+    },
+    "src" : {
+      "ts"  : "./src/ts",
+      "sass": "./src/sass"
+    },
+    "dist": {
+      "js" : "./dist/js",
+      "css": "./dist/css"
+    }
   }
 }
