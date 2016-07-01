@@ -1,5 +1,4 @@
 # Angular2-Gulp-Basic
-[logo]: https://angular.io/resources/images/logos/standard/shield-large.png "Logo Title Text 2"
 ### Bootstrapped Angular2 Gulp Project
 #### (WIP)
 
