@@ -91,7 +91,9 @@ gulp.task('tslint', () => {
   gulp.src([
     `${config.paths.src.ts}/**/*.ts`
   ])
-  .pipe(tslint())
+  .pipe(tslint({
+    configuration: './tslint.json'
+  }))
   .pipe(tslint.report("verbose"))
   .pipe( notify({
     title: config.name,
@@ -107,7 +109,12 @@ gulp.task('tslint', () => {
 /**
  * Default Task
  */
-gulp.task('default', ['copy', 'sass', 'tslint', 'browserify'] );
+gulp.task('default', [
+  'copy',
+  'sass',
+  'tslint',
+  'browserify'
+]);
 
 /**
  * Watch Task

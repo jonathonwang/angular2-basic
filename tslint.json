@@ -20,7 +20,7 @@
       "variable-declaration": "nospace"
     }],
     "variable-name": [true, "ban-keywords"],
-    "whitespace": [false,
+    "whitespace": [true,
       "check-branch",
       "check-decl",
       "check-operator",
