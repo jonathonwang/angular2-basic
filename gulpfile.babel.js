@@ -1,3 +1,6 @@
+/**
+ * Gulp Dependencies
+ */
 import gulp       from 'gulp';
 import tsify      from "tsify";
 import watchify   from 'watchify';
@@ -13,7 +16,7 @@ import filesize   from 'gulp-filesize';
 import sourcemaps from 'gulp-sourcemaps';
 import ts         from 'gulp-typescript';
 import source     from 'vinyl-source-stream';
-
+// Gulp Config
 import paths      from './gulp.config.json';
 
 /**

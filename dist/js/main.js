@@ -44351,6 +44351,11 @@ AppComponent = __decorate([
 exports.AppComponent = AppComponent;
 
 },{"@angular/core":148}],328:[function(require,module,exports){
+// import corejs from 'core-js';
+// import zone = require('zone.js');
+// import reflect = require('reflect-metadata');
+// import systemjs = require('systemjs');
+// import systemjsconfig = require('../../systemjs.config.js');
 "use strict";
 const platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
 const component_ts_1 = require('./component.ts');
