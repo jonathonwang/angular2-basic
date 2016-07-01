@@ -1,13 +1,17 @@
 # Angular2-Gulp-Basic
 ### Bootstrapped Angular2 Gulp Project
 #### (WIP)
+
 ---
+
 **Installation**
 
 `npm install`
 
 `typings install`
+
 ---
+
 **Gulp Tasks**
 
 `gulp`            - Runs all tasks once
@@ -21,7 +25,9 @@
 `gulp copy`       - Runs Copy to vendor files
 
 `gulp tslint`     - Runs TsLint on .ts files
+
 ---
+
 **Gulp Config**
 
 Gulp config and tasks are setup in `./src/gulp`
