@@ -6,7 +6,8 @@ import config from './src/gulp/gulp.config.json';
 
 // Copy Folders / Files
 gulp.Copy('copy', [
-  { src: config.paths.vendor.bootstrap, dest: `${config.paths.src.sass}/vendor/bootstrap` }
+  { src: config.paths.vendor.bootstrap, dest: `${config.paths.src.sass}/vendor/bootstrap` },
+  { src: config.paths.vendor.zone, dest: config.paths.dist.js }
 ]);
 
 // Compile Sass

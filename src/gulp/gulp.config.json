@@ -5,7 +5,8 @@
 
   "paths": {
     "vendor":{
-      "bootstrap": "node_modules/bootstrap-sass/assets/stylesheets/**/*"
+      "bootstrap": "node_modules/bootstrap-sass/assets/stylesheets/**/*",
+      "zone": "node_modules/zone.js/dist/zone.js"
     },
     "src" : {
       "ts"  : "./src/ts",
