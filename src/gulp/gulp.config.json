@@ -13,8 +13,9 @@
       "sass": "./src/sass"
     },
     "dist": {
-      "js" : "./dist/js",
-      "css": "./dist/css"
+      "js"  : "./dist/js",
+      "css" : "./dist/css",
+      "html": "./html/**/*.html"
     }
   }
 }
